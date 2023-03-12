@@ -1,0 +1,31 @@
+.itemContainer{
+    width: 500px;
+    height: 100px;
+    margin: 0px auto;
+    /* font-family: 'Indie Flower', cursive; */
+    font-size: 12px;
+    
+}
+.item{
+    
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+    
+    
+}
+.itemContainer:nth-child(even){
+    background-color: gray;
+}
+.itemContainer:nth-child(odd){
+    background-color: rgb(204, 204, 204);
+}
+.item p{
+    display: inline;
+}
+
+
+
+
